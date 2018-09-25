@@ -1,4 +1,4 @@
-#REACT PROJECT
+#REACT PROJECT#
 
 ## yarn
 `brew install yarn`
@@ -13,7 +13,7 @@ yarn是一个快速可靠安全的依赖管理工具，yarn与npm的许多功能
 <br/>
 live-server 集成了这三个插件的所有功能，很容易启动一个专业的本地服务。
 
-###安装live-server
+**安装live-server**
 <br/>
 `npm -g install live-server`
 <br/>
@@ -21,7 +21,7 @@ live-server 集成了这三个插件的所有功能，很容易启动一个专�
 <br/>
 `yarn global add live-server`
 
-### 使用live-server
+**使用live-server**
 <br/>
 
 `live-server public --port=9090`
@@ -31,23 +31,23 @@ live-server 集成了这三个插件的所有功能，很容易启动一个专�
 
 React中的jsx文件，浏览器不能直接运行，需要babel将jsx编译成javascript。
 
-###安装babel
+**安装babel**
 <br/>
 `npm install -g babel-cli`
 <br/>
 或者
 <br/>
 `yarn global add babel-cli`
-###初始化项目依赖
+**初始化项目依赖**
 <br/>
 `yarn init`
 
-###添加依赖
+**添加依赖**
 <br/>
 `yarn add babel-preset-react`
 `yarn add babel-preset-env`
 
-###运行babel
+**运行babel**
 <br/>
 `babel src/app.js --out-file=public/script/app.js --presets=env,react --watch`
 <br/>
