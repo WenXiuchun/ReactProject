@@ -1,4 +1,4 @@
-#REACT PROJECT#
+# REACT PROJECT
 
 ## yarn
 `brew install yarn`
